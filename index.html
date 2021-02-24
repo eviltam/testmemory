@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Memory Game</title>
+    <style>
+        h1,h2,p{
+            text-align: center;
+        }
+        div{
+         	background: #FFC0CB;
+			width: 800px;
+			height: 600px;
+			margin: auto;
+			padding: 20px;
+			display: grid;
+			grid-template-columns: repeat(4, 115px);
+			grid-template-rows: repeat(4, 120px) ;
+			grid-gap: 90px;
+        }
+        img{
+            width:180px;
+            height:180px;
+        }
+        div span{
+            height:200px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Mémory Martine</h1>
+    <h2>Score : <span id="score">0</span></h2>
+    <div id="memory">
+    </div>
+    
+    <p>
+      <script src="memory.js"></script>
+    </p>
+    <p>Martine, un personnage créé par Gilbert Delahaye et Marcel Marlier/Léaucour Création © Casterman</p>
+</body>
+</html>
